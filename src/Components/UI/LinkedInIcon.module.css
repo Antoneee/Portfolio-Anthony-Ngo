@@ -1,0 +1,20 @@
+.linkedin-img-about {
+  width: 36px;
+  height: 36px;
+  fill: #5f5d66;
+}
+
+.linkedin-img-about:hover {
+  fill: url(#gradient) #4776e6;
+}
+
+.linkedin-img-footer {
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+  transition: all 0.3s ease;
+}
+
+.linkedin-img-footer:hover {
+  fill: #ffb6b6;
+}

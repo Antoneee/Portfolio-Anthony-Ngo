@@ -1,0 +1,16 @@
+.next-icon {
+  cursor: pointer;
+  stroke: #5f5d66;
+}
+
+.next-icon:hover,
+.next-icon:active {
+  stroke: url(#gradient) #4776e6;
+}
+
+@media (max-width: 39em) {
+  .next-icon {
+    width: 32px;
+    height: 32px;
+  }
+}

@@ -1,0 +1,16 @@
+.previous-icon {
+  cursor: pointer;
+  stroke: #5f5d66;
+}
+
+.previous-icon:hover,
+.previous-icon:active {
+  stroke: url(#gradient) #4776e6;
+}
+
+@media (max-width: 39em) {
+  .previous-icon {
+    width: 32px;
+    height: 32px;
+  }
+}

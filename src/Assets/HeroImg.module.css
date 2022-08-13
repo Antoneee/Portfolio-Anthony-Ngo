@@ -1,0 +1,19 @@
+.hero-img {
+  width: 100%;
+}
+
+.hero-shirt {
+  fill: url(#gradient) #4776e6;
+}
+
+@media (max-width: 57em) {
+  .hero-img {
+    height: 500px;
+  }
+}
+
+@media (max-width: 24em) {
+  .hero-img {
+    height: 400px;
+  }
+}

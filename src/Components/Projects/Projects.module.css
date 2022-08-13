@@ -1,0 +1,160 @@
+.projects-container {
+  flex-direction: column;
+}
+
+.projects-header {
+  color: #1b1725;
+  font-size: 3.6rem;
+  font-family: "Lora";
+  margin-bottom: 1.2rem;
+  line-height: 1;
+  border-bottom: 3px solid;
+  border-image: linear-gradient(45deg, #4776e6, #8e54e9) 1 0;
+  margin-bottom: 2rem;
+}
+
+.projects-description {
+  text-align: center;
+  width: 60%;
+  margin-bottom: 5.2rem;
+}
+
+.projects-list {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 940px;
+  margin-bottom: 3.2rem;
+  background-color: #fff;
+  padding: 20px 0;
+}
+
+.projects-list-item {
+  width: 300px;
+  height: 300px;
+  list-style: none;
+}
+
+.hover {
+  width: 300px;
+  height: 300px;
+}
+
+.projects-icons {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  background-color: transparent;
+  top: 50%;
+}
+
+.previous {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  transform: translate(-150%, -50%);
+}
+
+.next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 0;
+  transform: translate(150%, -50%);
+}
+
+.project {
+  opacity: 0;
+  transition-duration: 1s ease;
+  list-style-type: none;
+}
+
+.project.current {
+  opacity: 1;
+  transition-duration: 1s;
+}
+
+.project-pages {
+  display: flex;
+  gap: 5px;
+}
+
+.project-page {
+  width: 9px;
+  height: 9px;
+  border-radius: 999px;
+  background-color: #cfcfcf;
+  cursor: pointer;
+}
+
+.page-active {
+  background-image: linear-gradient(45deg, #4776e6, #8e54e9);
+  background-color: none;
+}
+
+@media (max-width: 67em) {
+  .projects-list {
+    width: 560px;
+    height: 620px;
+  }
+}
+
+@media (max-width: 57em) {
+  .projects-container {
+    margin-bottom: 4rem;
+  }
+}
+
+@media (max-width: 45em) {
+  .projects-list {
+    width: 480px;
+    height: 680px;
+  }
+}
+
+@media (max-width: 39em) {
+  .projects-list {
+    width: 400px;
+    height: 680px;
+  }
+
+  .projects-description {
+    width: 80%;
+  }
+
+  .previous {
+    left: 0;
+    transform: translate(-110%, -50%);
+  }
+
+  .next {
+    right: 0;
+    transform: translate(110%, -50%);
+  }
+}
+
+@media (max-width: 30em) {
+  .projects-list {
+    width: 300px;
+    height: 750px;
+  }
+}
+
+@media (max-width: 24em) {
+  .projects-list {
+    width: 300px;
+    height: 680px;
+  }
+
+  .previous {
+    left: 0;
+    transform: translate(-90%, -50%);
+  }
+
+  .next {
+    right: 0;
+    transform: translate(90%, -50%);
+  }
+}

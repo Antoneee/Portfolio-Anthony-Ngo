@@ -1,0 +1,14 @@
+.exit-icon {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 16px;
+  right: 16px;
+  cursor: pointer;
+}
+
+.exit-icon-mobile {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}

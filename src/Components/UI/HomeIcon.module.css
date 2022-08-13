@@ -1,0 +1,17 @@
+.home-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #fff;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.home-icon {
+  width: 30px;
+  height: 30px;
+  color: #495057;
+}

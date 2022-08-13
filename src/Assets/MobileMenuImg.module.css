@@ -1,0 +1,15 @@
+.mobile-menu-img {
+  width: 320px;
+  height: 640px;
+}
+
+.gradient {
+  fill: url(#gradient) #4776e6;
+}
+
+@media (max-width: 24em) {
+  .mobile-menu-img {
+    width: 150px;
+    height: 300px;
+  }
+}

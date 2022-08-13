@@ -1,0 +1,107 @@
+.hero-container {
+  position: relative;
+  margin-bottom: 4.8rem;
+}
+
+.hero-content {
+  width: 60%;
+  z-index: 10;
+}
+
+.hero-header {
+  color: #1b1725;
+  font-size: 5.2rem;
+  font-family: "Lora";
+  margin-bottom: 1.2rem;
+  line-height: 1;
+  transition: all 0.3s ease;
+}
+
+.hero-header.dark-mode {
+  color: #fff;
+}
+
+.hero-who {
+  margin-bottom: 2rem;
+}
+
+.who-1,
+.who-2 {
+  color: #1b1725;
+  font-weight: bold;
+  border-bottom: 3px solid;
+  border-image: linear-gradient(45deg, #4776e6, #8e54e9) 1 0;
+  transition: all 0.3s ease;
+  letter-spacing: 1px;
+}
+
+.who-1.dark-mode,
+.who-2.dark-mode {
+  color: #fff;
+}
+
+.hero-what {
+  margin-bottom: 2rem;
+}
+
+.hero-beliefs {
+  margin-bottom: 2.8rem;
+}
+
+.hero-img {
+  position: relative;
+  width: 40%;
+  z-index: 10;
+}
+
+.pattern {
+  position: absolute;
+  width: 360px;
+  height: 500px;
+  top: 160px;
+  right: -50px;
+  background-color: rgba(255, 255, 255, 0.274);
+  z-index: -1;
+}
+
+@media (max-width: 57em) {
+  .hero-container {
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+
+  .pattern {
+    width: 240px;
+    height: 360px;
+    top: 110px;
+    right: -20px;
+  }
+
+  .hero-content {
+    width: 80%;
+  }
+
+  .hero-img {
+    width: 60%;
+  }
+}
+
+@media (max-width: 45em) {
+  .hero-header {
+    font-size: 4.2rem;
+  }
+}
+
+@media (max-width: 24em) {
+  .hero-container {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .pattern {
+    width: 200px;
+    height: 240px;
+    top: 110px;
+    right: -20px;
+  }
+}

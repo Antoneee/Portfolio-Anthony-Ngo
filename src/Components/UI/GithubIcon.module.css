@@ -1,0 +1,20 @@
+.github-img-about {
+  width: 36px;
+  height: 36px;
+  fill: #5f5d66;
+}
+
+.github-img-about:hover {
+  fill: url(#gradient) #4776e6;
+}
+
+.github-img-footer {
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+  transition: all 0.3s ease;
+}
+
+.github-img-footer:hover {
+  fill: #ffb6b6;
+}

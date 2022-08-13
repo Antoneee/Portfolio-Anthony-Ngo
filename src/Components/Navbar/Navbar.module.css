@@ -1,0 +1,109 @@
+.navbar {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 4.8rem;
+  background-image: linear-gradient(45deg, #4776e6, #8e54e9);
+  top: 0px;
+  z-index: 1000;
+  margin-bottom: -80px;
+  color: #fff;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-family: "Lora";
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.navbar-right {
+  z-index: 1000;
+}
+
+.navbar-logo {
+  cursor: pointer;
+}
+
+.dark-mode-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 999px;
+  border: 2px solid #fff;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.dark-mode-button:hover,
+.dark-mode-button:active {
+  background-color: #fff;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4.8rem;
+  list-style: none;
+}
+
+.navbar-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4.8rem;
+}
+
+.mobile-nav-items {
+  position: fixed;
+  top: -120%;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100vw;
+  height: 100vh;
+  z-index: 500;
+  background-color: #fff;
+  color: #1b1725;
+  transition: all 0.2s ease-in;
+  list-style: none;
+  font-size: 1.2rem;
+  padding-top: 100px;
+}
+
+.mobile-nav-items.mobile-dark-mode.mobile-nav-items-active {
+  background-color: #1b1725;
+  color: #fff;
+}
+
+.mobile-nav-items.mobile-nav-items-active {
+  gap: 0;
+  top: 0;
+}
+
+.pattern {
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  bottom: 50px;
+  left: 420px;
+  background-color: rgba(255, 255, 255, 0.274);
+  z-index: -1;
+}
+
+@media (max-width: 30em) {
+  .navbar {
+    padding: 0 2.4rem;
+  }
+}

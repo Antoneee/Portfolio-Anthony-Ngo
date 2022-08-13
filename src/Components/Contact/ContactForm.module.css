@@ -1,0 +1,124 @@
+.contact-form-container {
+  width: 600px;
+  height: 100%;
+  background-color: #fff;
+  padding: 2.4rem 4rem;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  z-index: 20;
+}
+
+.contact-form.dark-mode {
+  color: #1b1725;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form__name-email {
+  display: flex;
+  gap: 2rem;
+}
+
+.contact-form__name,
+.contact-form__email,
+.contact-form__subject,
+.contact-form__message {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contact-form__name,
+.contact-form__email {
+  width: 50%;
+}
+
+.contact-form__name label,
+.contact-form__email label,
+.contact-form__subject label,
+.contact-form__message label {
+  font-weight: 500;
+  font-size: 1.4rem;
+  margin-bottom: 0.8rem;
+  color: #1b1725;
+}
+
+.contact-form__name input,
+.contact-form__email input,
+.contact-form__subject input,
+.contact-form textarea {
+  font-family: inherit;
+  color: inherit;
+  width: 100%;
+  height: 1.2rem;
+  font-size: 1.2rem;
+  padding: 1.2rem 0.6rem;
+}
+
+.contact-form textarea {
+  height: 10rem;
+  padding: 0.4rem 0.6rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 1rem;
+  border: 1px solid;
+  border-image: linear-gradient(45deg, #4776e6, #8e54e9) 1 1;
+  transition: all 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  background-color: #f4f6ff;
+  outline: none;
+}
+
+.contact-form__button {
+  margin-top: 2rem;
+}
+
+.contact-form__error {
+  color: #ff5154;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  opacity: 0;
+  transition: all 0.1s linear;
+}
+
+.active {
+  opacity: 1;
+}
+
+@media (max-width: 45em) {
+  .contact-form-container {
+    width: 480px;
+  }
+
+  .contact-form__name-email {
+    flex-direction: column;
+    gap: 0rem;
+  }
+
+  .contact-form__name,
+  .contact-form__email {
+    width: 100%;
+  }
+}
+
+@media (max-width: 45em) {
+  .contact-form-container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 45em) {
+  .contact-form-container {
+    padding: 1.2rem 2rem;
+  }
+  .contact-form-container {
+    width: 300px;
+  }
+}

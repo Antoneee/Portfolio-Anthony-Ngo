@@ -1,0 +1,10 @@
+.contact-img {
+  position: absolute;
+  right: -60%;
+  width: 100%;
+  z-index: 10;
+}
+
+.gradient {
+  fill: url(#gradient) #4776e6;
+}
