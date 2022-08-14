@@ -30,17 +30,12 @@ const Hero = (props) => {
               props.darkMode ? styles["dark-mode"] : ""
             }`}
           >
-            Web Developer.
+            Software Developer.
           </span>
         </p>
         <p className={styles["hero-what"]}>
-          I am a Software Enginnering student at the University of Texas at
-          Dallas and have a passion for Web Development.
-        </p>
-        <p className={styles["hero-beliefs"]}>
-          Dis parturient montes nascetur ridiculus mus mauris vitae ultricies.
-          Etiam sit amet nisl purus. Lacus suspendisse faucibus interdum posuere
-          lorem ipsum dolor sit amet.
+          I specialize in web development and enjoy bringing my ideas to life in
+          the browser.
         </p>
         <Link to="contact" spy={true} smooth={true} duration={500}>
           <Button>Contact me</Button>

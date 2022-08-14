@@ -11,33 +11,33 @@ import "../../App.css";
 const PROJECT_DATA = [
   {
     id: 1,
-    name: "Tip Calculator",
+    name: "Blogly",
     image: Project1Image,
     description:
-      "Scelerisque eu ultrices vitae auctor. Molestie nunc non blandit massa enim nec dui nunc mattis.",
-    skills: ["HTML", "CSS", "ReactJS", "Redux", "Redux-Toolkit", "Firebase"],
-    preview: "https://tip-calculator-app-58cb2.web.app/",
-    code: "https://github.com/Antoneee/react-tip-calculator-app-with-redux",
+      "Fullstack blog website using a React.js frontend, an Express.js RESTful API, and MySQL as the datastore. Authorized users can perform CRUD operations for blog posts, likes, and comments.",
+    skills: ["React.js", "Node.js", "Express.js", "MySQL", "REST", "API"],
+    preview: "https://blogly-anthony-ngo.netlify.app/",
+    code: "https://github.com/Antoneee/Blogly",
   },
   {
     id: 2,
-    name: "Time Tracking Dashboard",
+    name: "Cakeful",
     image: Project2Image,
     description:
-      "Scelerisque eu ultrices vitae auctor. Molestie nunc non blandit massa enim nec dui nunc mattis.",
-    skills: ["HTML", "CSS", "ReactJS", "Fetch", "Firebase"],
-    preview: "https://time-tracker-dashboard-app.web.app/",
-    code: "https://github.com/Antoneee/time-tracker-dashboard-react-app",
+      "A shopping cart app using ASP.NET Core MVC with MS SQL and Entity Framework Core 6. Provided services for users to signup/login with Identity API, browse items, add items to a shopping cart, submit orders, and more!",
+    skills: ["ASP.NET Core", "MVC", "SQLServer", "EF Core", "C#", ".NET"],
+    preview: "https://cakeful.azurewebsites.net/",
+    code: "https://github.com/Antoneee/Cakeful",
   },
   {
     id: 3,
-    name: "Advice Generator",
+    name: "Omnifood",
     image: Project3Image,
     description:
-      "Scelerisque eu ultrices vitae auctor. Molestie nunc non blandit massa enim nec dui nunc mattis.",
-    skills: ["HTML", "CSS", "ReactJS", "Fetch", "Firebase"],
-    preview: "https://react-advice-generator-app.web.app/",
-    code: "https://github.com/Antoneee/react-advice-generator-app",
+      "Fully responsive landing page of an AI-powered food subscription. Applied the principles of both good UI and UX design (e.g. layout, typography, colors, usability, etc.).",
+    skills: ["HTML", "CSS", "JS", "UI/UX"],
+    preview: "https://omnifood-anthony-ngo.netlify.app/",
+    code: "https://github.com/Antoneee/Omnifood",
   },
 ];
 
@@ -62,8 +62,12 @@ const Projects = (props) => {
         Portfolio
       </h1>
       <p className={styles["projects-description"]}>
-        I have built many apps and websites to apply what I have learned in my
-        Web Development journey. Here is a small selection of my recent works.
+        I have built many projects to apply what I have learned in my software
+        development journey. Here is a small selection of my recent works.
+      </p>
+      <p className={styles["projects-note"]}>
+        Hover over the images for the links to the code and live previews for
+        each project!
       </p>
 
       <ul className={styles["projects-list"]}>

@@ -6,6 +6,11 @@ import react from "../../Assets/Images/react.png";
 import cpp from "../../Assets/Images/c++.png";
 import java from "../../Assets/Images/java.png";
 import git from "../../Assets/Images/git.png";
+import csharp from "../../Assets/Images/csharp.png";
+import aspnet from "../../Assets/Images/aspnet.png";
+import sqlserver from "../../Assets/Images/sqlserver.png";
+import mongo from "../../Assets/Images/mongo.svg";
+
 import "../../App.css";
 
 const Skills = (props) => {
@@ -36,6 +41,18 @@ const Skills = (props) => {
         </li>
         <li className={`${styles["skill"]} ${styles["git"]}`}>
           <img src={git} alt="Git logo." className={styles["skill-img"]} />
+        </li>
+        <li className={`${styles["skill"]} ${styles["csharp"]}`}>
+          <img src={csharp} alt="C# logo." className={styles["skill-img"]} />
+        </li>
+        <li className={`${styles["skill"]} ${styles["aspnet"]}`}>
+          <img src={aspnet} alt="C# logo." className={styles["skill-img"]} />
+        </li>
+        <li className={`${styles["skill"]} ${styles["sqlserver"]}`}>
+          <img src={sqlserver} alt="C# logo." className={styles["skill-img"]} />
+        </li>
+        <li className={`${styles["skill"]} ${styles["mongo"]}`}>
+          <img src={mongo} alt="C# logo." className={styles["skill-img"]} />
         </li>
       </ul>
       <p className={styles["skills-description-2"]}>

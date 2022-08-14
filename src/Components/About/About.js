@@ -20,12 +20,14 @@ const About = (props) => {
         </div>
         <div className={styles["about-text-container"]}>
           <p className={styles["about-description-1"]}>
-            I am an undergraduate Software Engineering student at the University
-            of Texas at Dallas and have a passion for Web Development.
+            I am curently an undergraduate Software Engineering student at the
+            University of Texas at Dallas and have a deep interest in learning
+            everything software development has to offer (e.g. web, mobile,
+            cloud and machine learning).
           </p>
           <p className={styles["about-description-2"]}>
-            I love to apply what I have learned from courses through projects
-            and strive to deliver quality work.
+            I love to apply any new knowledge I gain through projects and strive
+            to deliver quality work.
           </p>
           <div className={styles["about-links"]}>
             <a href={CV} target="_blank" download rel="noreferrer">

@@ -24,15 +24,15 @@
 }
 
 .skills-list-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 3.2rem;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 2.4rem;
   list-style: none;
   margin-bottom: 3.2rem;
 }
 
 .skill {
+  align-self: center;
   width: 4rem;
 }
 
